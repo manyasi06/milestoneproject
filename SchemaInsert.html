@@ -1,0 +1,29 @@
+<html>
+    <head>Edit Schema Page</head>
+    <body>
+        <h1>Edit Schema</h1>
+        <div>
+            <nav>
+                <a>Search</a>
+                <a>Logout</a>
+                <a>Edit Schema</a>
+            </nav>
+        </div>
+        <br>
+        <form action="post">
+            <label for="avro">Avro:</label><br>
+            <input type="radio" name="avro"><br>
+            <label for="protobuff">Protobuff:</label><br>
+            <input type="radio" name="protobuff"><br>
+            <label for="json">Json:</label><br>
+            <input type="radio" name="json"><br>
+        </form>
+        
+        <br>
+        <form>
+            <label for="schema"><strong>Schema</strong></label><br>
+            <textarea name="schema" cols="100" rows="5">Please add your schema</textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
